@@ -1,0 +1,30 @@
+{
+  "name": "poc-applicationinsights",
+  "version": "1.0.0",
+  "description": "POC for Monitor Node.js services with azure Application Insights",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "monitor",
+    "applicationinsights",
+    "azure"
+  ],
+  "author": "Shenouda Farouk",
+  "license": "MIT",
+  "dependencies": {
+    "applicationinsights": "^2.3.6",
+    "express": "^4.16.2",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.9.0",
+    "winston": "^3.8.2",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
